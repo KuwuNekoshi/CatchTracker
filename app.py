@@ -13,6 +13,7 @@ STATE_FILE = os.path.join("data", "state.json")
 
 with open(DATA_FILE) as f:
     GAMES = json.load(f)
+KNOWN_GAMES = {g for games in GAMES.values() for combo in games.keys() for g in combo.split("/")}
 
 POKE_CACHE_FILE = os.path.join("data", "pokemon_cache.json")
 if os.path.exists(POKE_CACHE_FILE):
@@ -54,8 +55,12 @@ def get_poke_info(name):
 def parse_location(loc_str):
     match = re.match(r"^(.*?)(?:\s*\(([^)]+)\))?$", loc_str)
     base = match.group(1).strip()
-    variants = [v.strip() for v in match.group(2).split("/")] if match.group(2) else []
-    return base, variants
+    variant_str = match.group(2)
+    if variant_str:
+        variants = [v.strip() for v in variant_str.split("/")]
+        if all(v in KNOWN_GAMES for v in variants):
+            return base, variants
+    return loc_str.strip(), []
 
 
 def game_entries_for_state(state):
@@ -66,7 +71,7 @@ def game_entries_for_state(state):
     return []
 
 
-def full_dex_list():
+def full_dex_list(filter_gen=None):
     all_poke = {}
     for gen, games in GAMES.items():
         for combo, entries in games.items():
@@ -95,6 +100,8 @@ def full_dex_list():
     for p in all_poke.values():
         p["generations"] = sorted(p["generations"])
         p["games"] = sorted(p["games"])
+        if filter_gen and filter_gen not in p["generations"]:
+            continue
         dex.append(p)
     return sorted(dex, key=lambda x: x["id"])
 
@@ -172,7 +179,7 @@ def current_pokemon(state, game_list=None):
 def tracker():
     state = load_state()
     game_list = ordered_game_list(state)
-    dex_list = full_dex_list()
+    dex_list = full_dex_list(state["generation"])
     if request.method == "POST":
         action = request.form["action"]
         if action == "next" and state["index"] < len(game_list) - 1:

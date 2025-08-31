@@ -1212,5 +1212,811 @@
         "location": "Event"
       }
     ]
+  },
+  "Generation II": {
+    "Gold/Silver": [
+      {
+        "name": "Chikorita",
+        "location": "Starter"
+      },
+      {
+        "name": "Bayleef",
+        "location": "Evolve Chikorita"
+      },
+      {
+        "name": "Meganium",
+        "location": "Evolve Bayleef"
+      },
+      {
+        "name": "Cyndaquil",
+        "location": "Starter"
+      },
+      {
+        "name": "Quilava",
+        "location": "Evolve Cyndaquil"
+      },
+      {
+        "name": "Typhlosion",
+        "location": "Evolve Quilava"
+      },
+      {
+        "name": "Totodile",
+        "location": "Starter"
+      },
+      {
+        "name": "Croconaw",
+        "location": "Evolve Totodile"
+      },
+      {
+        "name": "Feraligatr",
+        "location": "Evolve Croconaw"
+      },
+      {
+        "name": "Sentret",
+        "location": "Route 29"
+      },
+      {
+        "name": "Furret",
+        "location": "Evolve Sentret"
+      },
+      {
+        "name": "Hoothoot",
+        "location": "Route 29"
+      },
+      {
+        "name": "Noctowl",
+        "location": "Evolve Hoothoot"
+      },
+      {
+        "name": "Ledyba",
+        "location": "Route 30 (Gold)"
+      },
+      {
+        "name": "Ledian",
+        "location": "Evolve Ledyba"
+      },
+      {
+        "name": "Spinarak",
+        "location": "Route 30 (Silver)"
+      },
+      {
+        "name": "Ariados",
+        "location": "Evolve Spinarak"
+      },
+      {
+        "name": "Crobat",
+        "location": "Evolve Golbat"
+      },
+      {
+        "name": "Chinchou",
+        "location": "Route 20"
+      },
+      {
+        "name": "Lanturn",
+        "location": "Evolve Chinchou"
+      },
+      {
+        "name": "Pichu",
+        "location": "Breed Pikachu"
+      },
+      {
+        "name": "Cleffa",
+        "location": "Mt. Moon"
+      },
+      {
+        "name": "Igglybuff",
+        "location": "Breed Jigglypuff"
+      },
+      {
+        "name": "Togepi",
+        "location": "Elm's Egg"
+      },
+      {
+        "name": "Togetic",
+        "location": "Evolve Togepi"
+      },
+      {
+        "name": "Natu",
+        "location": "Ruins of Alph"
+      },
+      {
+        "name": "Xatu",
+        "location": "Evolve Natu"
+      },
+      {
+        "name": "Mareep",
+        "location": "Route 32"
+      },
+      {
+        "name": "Flaaffy",
+        "location": "Evolve Mareep"
+      },
+      {
+        "name": "Ampharos",
+        "location": "Evolve Flaaffy"
+      },
+      {
+        "name": "Bellossom",
+        "location": "Use Sun Stone"
+      },
+      {
+        "name": "Marill",
+        "location": "Ilex Forest"
+      },
+      {
+        "name": "Azumarill",
+        "location": "Evolve Marill"
+      },
+      {
+        "name": "Sudowoodo",
+        "location": "Route 36"
+      },
+      {
+        "name": "Politoed",
+        "location": "Trade Poliwhirl"
+      },
+      {
+        "name": "Hoppip",
+        "location": "Route 32"
+      },
+      {
+        "name": "Skiploom",
+        "location": "Evolve Hoppip"
+      },
+      {
+        "name": "Jumpluff",
+        "location": "Evolve Skiploom"
+      },
+      {
+        "name": "Aipom",
+        "location": "Azalea Town"
+      },
+      {
+        "name": "Sunkern",
+        "location": "National Park"
+      },
+      {
+        "name": "Sunflora",
+        "location": "Evolve Sunkern"
+      },
+      {
+        "name": "Yanma",
+        "location": "Route 35"
+      },
+      {
+        "name": "Wooper",
+        "location": "Route 32"
+      },
+      {
+        "name": "Quagsire",
+        "location": "Evolve Wooper"
+      },
+      {
+        "name": "Espeon",
+        "location": "Evolve Eevee"
+      },
+      {
+        "name": "Umbreon",
+        "location": "Evolve Eevee"
+      },
+      {
+        "name": "Murkrow",
+        "location": "Route 7 (Gold)"
+      },
+      {
+        "name": "Slowking",
+        "location": "Trade Slowpoke"
+      },
+      {
+        "name": "Misdreavus",
+        "location": "Mt. Silver (Silver)"
+      },
+      {
+        "name": "Unown",
+        "location": "Ruins of Alph"
+      },
+      {
+        "name": "Wobbuffet",
+        "location": "Dark Cave"
+      },
+      {
+        "name": "Girafarig",
+        "location": "Route 43"
+      },
+      {
+        "name": "Pineco",
+        "location": "Ilex Forest"
+      },
+      {
+        "name": "Forretress",
+        "location": "Evolve Pineco"
+      },
+      {
+        "name": "Dunsparce",
+        "location": "Dark Cave"
+      },
+      {
+        "name": "Gligar",
+        "location": "Route 45 (Gold)"
+      },
+      {
+        "name": "Steelix",
+        "location": "Trade Onix"
+      },
+      {
+        "name": "Snubbull",
+        "location": "Route 38"
+      },
+      {
+        "name": "Granbull",
+        "location": "Evolve Snubbull"
+      },
+      {
+        "name": "Qwilfish",
+        "location": "Route 32"
+      },
+      {
+        "name": "Scizor",
+        "location": "Trade Scyther"
+      },
+      {
+        "name": "Shuckle",
+        "location": "Cianwood City"
+      },
+      {
+        "name": "Heracross",
+        "location": "Azalea Town"
+      },
+      {
+        "name": "Sneasel",
+        "location": "Ice Path (Silver)"
+      },
+      {
+        "name": "Teddiursa",
+        "location": "Route 45 (Silver)"
+      },
+      {
+        "name": "Ursaring",
+        "location": "Evolve Teddiursa"
+      },
+      {
+        "name": "Slugma",
+        "location": "Route 16"
+      },
+      {
+        "name": "Magcargo",
+        "location": "Evolve Slugma"
+      },
+      {
+        "name": "Swinub",
+        "location": "Ice Path"
+      },
+      {
+        "name": "Piloswine",
+        "location": "Evolve Swinub"
+      },
+      {
+        "name": "Corsola",
+        "location": "Route 34"
+      },
+      {
+        "name": "Remoraid",
+        "location": "Route 44"
+      },
+      {
+        "name": "Octillery",
+        "location": "Evolve Remoraid"
+      },
+      {
+        "name": "Delibird",
+        "location": "Ice Path"
+      },
+      {
+        "name": "Mantine",
+        "location": "Route 41"
+      },
+      {
+        "name": "Skarmory",
+        "location": "Route 45 (Silver)"
+      },
+      {
+        "name": "Houndour",
+        "location": "Route 7 (Silver)"
+      },
+      {
+        "name": "Houndoom",
+        "location": "Evolve Houndour"
+      },
+      {
+        "name": "Kingdra",
+        "location": "Trade Seadra"
+      },
+      {
+        "name": "Phanpy",
+        "location": "Route 45 (Gold)"
+      },
+      {
+        "name": "Donphan",
+        "location": "Evolve Phanpy"
+      },
+      {
+        "name": "Porygon2",
+        "location": "Trade Porygon"
+      },
+      {
+        "name": "Stantler",
+        "location": "Route 37"
+      },
+      {
+        "name": "Smeargle",
+        "location": "Ruins of Alph"
+      },
+      {
+        "name": "Tyrogue",
+        "location": "Mt. Mortar"
+      },
+      {
+        "name": "Hitmontop",
+        "location": "Evolve Tyrogue"
+      },
+      {
+        "name": "Smoochum",
+        "location": "Breed Jynx"
+      },
+      {
+        "name": "Elekid",
+        "location": "Breed Electabuzz"
+      },
+      {
+        "name": "Magby",
+        "location": "Breed Magmar"
+      },
+      {
+        "name": "Miltank",
+        "location": "Route 38"
+      },
+      {
+        "name": "Blissey",
+        "location": "Evolve Chansey"
+      },
+      {
+        "name": "Raikou",
+        "location": "Roaming Johto"
+      },
+      {
+        "name": "Entei",
+        "location": "Roaming Johto"
+      },
+      {
+        "name": "Suicune",
+        "location": "Roaming Johto"
+      },
+      {
+        "name": "Larvitar",
+        "location": "Mt. Silver"
+      },
+      {
+        "name": "Pupitar",
+        "location": "Evolve Larvitar"
+      },
+      {
+        "name": "Tyranitar",
+        "location": "Evolve Pupitar"
+      },
+      {
+        "name": "Lugia",
+        "location": "Whirl Islands"
+      },
+      {
+        "name": "Ho-Oh",
+        "location": "Tin Tower"
+      },
+      {
+        "name": "Celebi",
+        "location": "Ilex Forest Shrine"
+      }
+    ],
+    "Crystal": [
+      {
+        "name": "Chikorita",
+        "location": "Starter"
+      },
+      {
+        "name": "Bayleef",
+        "location": "Evolve Chikorita"
+      },
+      {
+        "name": "Meganium",
+        "location": "Evolve Bayleef"
+      },
+      {
+        "name": "Cyndaquil",
+        "location": "Starter"
+      },
+      {
+        "name": "Quilava",
+        "location": "Evolve Cyndaquil"
+      },
+      {
+        "name": "Typhlosion",
+        "location": "Evolve Quilava"
+      },
+      {
+        "name": "Totodile",
+        "location": "Starter"
+      },
+      {
+        "name": "Croconaw",
+        "location": "Evolve Totodile"
+      },
+      {
+        "name": "Feraligatr",
+        "location": "Evolve Croconaw"
+      },
+      {
+        "name": "Sentret",
+        "location": "Route 29"
+      },
+      {
+        "name": "Furret",
+        "location": "Evolve Sentret"
+      },
+      {
+        "name": "Hoothoot",
+        "location": "Route 29"
+      },
+      {
+        "name": "Noctowl",
+        "location": "Evolve Hoothoot"
+      },
+      {
+        "name": "Ledyba",
+        "location": "Route 30"
+      },
+      {
+        "name": "Ledian",
+        "location": "Evolve Ledyba"
+      },
+      {
+        "name": "Spinarak",
+        "location": "Route 30"
+      },
+      {
+        "name": "Ariados",
+        "location": "Evolve Spinarak"
+      },
+      {
+        "name": "Crobat",
+        "location": "Evolve Golbat"
+      },
+      {
+        "name": "Chinchou",
+        "location": "Route 20"
+      },
+      {
+        "name": "Lanturn",
+        "location": "Evolve Chinchou"
+      },
+      {
+        "name": "Pichu",
+        "location": "Breed Pikachu"
+      },
+      {
+        "name": "Cleffa",
+        "location": "Mt. Moon"
+      },
+      {
+        "name": "Igglybuff",
+        "location": "Breed Jigglypuff"
+      },
+      {
+        "name": "Togepi",
+        "location": "Elm's Egg"
+      },
+      {
+        "name": "Togetic",
+        "location": "Evolve Togepi"
+      },
+      {
+        "name": "Natu",
+        "location": "Ruins of Alph"
+      },
+      {
+        "name": "Xatu",
+        "location": "Evolve Natu"
+      },
+      {
+        "name": "Mareep",
+        "location": "Route 42"
+      },
+      {
+        "name": "Flaaffy",
+        "location": "Evolve Mareep"
+      },
+      {
+        "name": "Ampharos",
+        "location": "Evolve Flaaffy"
+      },
+      {
+        "name": "Bellossom",
+        "location": "Use Sun Stone"
+      },
+      {
+        "name": "Marill",
+        "location": "Ilex Forest"
+      },
+      {
+        "name": "Azumarill",
+        "location": "Evolve Marill"
+      },
+      {
+        "name": "Sudowoodo",
+        "location": "Route 36"
+      },
+      {
+        "name": "Politoed",
+        "location": "Trade Poliwhirl"
+      },
+      {
+        "name": "Hoppip",
+        "location": "Route 32"
+      },
+      {
+        "name": "Skiploom",
+        "location": "Evolve Hoppip"
+      },
+      {
+        "name": "Jumpluff",
+        "location": "Evolve Skiploom"
+      },
+      {
+        "name": "Aipom",
+        "location": "Azalea Town"
+      },
+      {
+        "name": "Sunkern",
+        "location": "National Park"
+      },
+      {
+        "name": "Sunflora",
+        "location": "Evolve Sunkern"
+      },
+      {
+        "name": "Yanma",
+        "location": "Route 35"
+      },
+      {
+        "name": "Wooper",
+        "location": "Route 32"
+      },
+      {
+        "name": "Quagsire",
+        "location": "Evolve Wooper"
+      },
+      {
+        "name": "Espeon",
+        "location": "Evolve Eevee"
+      },
+      {
+        "name": "Umbreon",
+        "location": "Evolve Eevee"
+      },
+      {
+        "name": "Murkrow",
+        "location": "Route 7"
+      },
+      {
+        "name": "Slowking",
+        "location": "Trade Slowpoke"
+      },
+      {
+        "name": "Misdreavus",
+        "location": "Mt. Silver"
+      },
+      {
+        "name": "Unown",
+        "location": "Ruins of Alph"
+      },
+      {
+        "name": "Wobbuffet",
+        "location": "Dark Cave"
+      },
+      {
+        "name": "Girafarig",
+        "location": "Route 43"
+      },
+      {
+        "name": "Pineco",
+        "location": "Ilex Forest"
+      },
+      {
+        "name": "Forretress",
+        "location": "Evolve Pineco"
+      },
+      {
+        "name": "Dunsparce",
+        "location": "Dark Cave"
+      },
+      {
+        "name": "Gligar",
+        "location": "Route 45"
+      },
+      {
+        "name": "Steelix",
+        "location": "Trade Onix"
+      },
+      {
+        "name": "Snubbull",
+        "location": "Route 38"
+      },
+      {
+        "name": "Granbull",
+        "location": "Evolve Snubbull"
+      },
+      {
+        "name": "Qwilfish",
+        "location": "Route 32"
+      },
+      {
+        "name": "Scizor",
+        "location": "Trade Scyther"
+      },
+      {
+        "name": "Shuckle",
+        "location": "Cianwood City"
+      },
+      {
+        "name": "Heracross",
+        "location": "Azalea Town"
+      },
+      {
+        "name": "Sneasel",
+        "location": "Ice Path"
+      },
+      {
+        "name": "Teddiursa",
+        "location": "Route 45"
+      },
+      {
+        "name": "Ursaring",
+        "location": "Evolve Teddiursa"
+      },
+      {
+        "name": "Slugma",
+        "location": "Route 16"
+      },
+      {
+        "name": "Magcargo",
+        "location": "Evolve Slugma"
+      },
+      {
+        "name": "Swinub",
+        "location": "Ice Path"
+      },
+      {
+        "name": "Piloswine",
+        "location": "Evolve Swinub"
+      },
+      {
+        "name": "Corsola",
+        "location": "Route 34"
+      },
+      {
+        "name": "Remoraid",
+        "location": "Route 44"
+      },
+      {
+        "name": "Octillery",
+        "location": "Evolve Remoraid"
+      },
+      {
+        "name": "Delibird",
+        "location": "Ice Path"
+      },
+      {
+        "name": "Mantine",
+        "location": "Route 41"
+      },
+      {
+        "name": "Skarmory",
+        "location": "Route 45"
+      },
+      {
+        "name": "Houndour",
+        "location": "Route 7"
+      },
+      {
+        "name": "Houndoom",
+        "location": "Evolve Houndour"
+      },
+      {
+        "name": "Kingdra",
+        "location": "Trade Seadra"
+      },
+      {
+        "name": "Phanpy",
+        "location": "Route 45"
+      },
+      {
+        "name": "Donphan",
+        "location": "Evolve Phanpy"
+      },
+      {
+        "name": "Porygon2",
+        "location": "Trade Porygon"
+      },
+      {
+        "name": "Stantler",
+        "location": "Route 37"
+      },
+      {
+        "name": "Smeargle",
+        "location": "Ruins of Alph"
+      },
+      {
+        "name": "Tyrogue",
+        "location": "Mt. Mortar"
+      },
+      {
+        "name": "Hitmontop",
+        "location": "Evolve Tyrogue"
+      },
+      {
+        "name": "Smoochum",
+        "location": "Breed Jynx"
+      },
+      {
+        "name": "Elekid",
+        "location": "Breed Electabuzz"
+      },
+      {
+        "name": "Magby",
+        "location": "Breed Magmar"
+      },
+      {
+        "name": "Miltank",
+        "location": "Route 38"
+      },
+      {
+        "name": "Blissey",
+        "location": "Evolve Chansey"
+      },
+      {
+        "name": "Raikou",
+        "location": "Roaming Johto"
+      },
+      {
+        "name": "Entei",
+        "location": "Roaming Johto"
+      },
+      {
+        "name": "Suicune",
+        "location": "Tin Tower"
+      },
+      {
+        "name": "Larvitar",
+        "location": "Mt. Silver"
+      },
+      {
+        "name": "Pupitar",
+        "location": "Evolve Larvitar"
+      },
+      {
+        "name": "Tyranitar",
+        "location": "Evolve Pupitar"
+      },
+      {
+        "name": "Lugia",
+        "location": "Whirl Islands"
+      },
+      {
+        "name": "Ho-Oh",
+        "location": "Tin Tower"
+      },
+      {
+        "name": "Celebi",
+        "location": "Ilex Forest Shrine"
+      }
+    ]
   }
 }
