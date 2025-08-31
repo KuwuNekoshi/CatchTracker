@@ -1,20 +1,27 @@
 <!doctype html>
-<title>Select Game</title>
-<h1>Select Generation and Game</h1>
-<form method="post">
-  <label>Generation:
-    <select name="generation">
-      {% for gen in generations %}
-      <option value="{{ gen }}" {% if gen == state.generation %}selected{% endif %}>{{ gen }}</option>
-      {% endfor %}
-    </select>
-  </label>
-  <label>Game:
-    <select name="game">
-      {% for game in games %}
-      <option value="{{ game }}" {% if game == state.game %}selected{% endif %}>{{ game }}</option>
-      {% endfor %}
-    </select>
-  </label>
-  <button type="submit">Start</button>
-</form>
+<html>
+  <head>
+    <title>Select Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <h1>Select Generation and Game</h1>
+    <form method="post">
+      <label>Generation:
+        <select name="generation">
+          {% for gen in generations %}
+          <option value="{{ gen }}" {% if gen == state.generation %}selected{% endif %}>{{ gen }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>Game:
+        <select name="game">
+          {% for game in games %}
+          <option value="{{ game }}" {% if game == state.game %}selected{% endif %}>{{ game }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <button type="submit">Start</button>
+    </form>
+  </body>
+</html>

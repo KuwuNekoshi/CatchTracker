@@ -1,12 +1,19 @@
 <!doctype html>
-<title>Tracker</title>
-<h1>{{ state.generation }} - {{ state.game }}</h1>
-<p>Current: {{ pokemon.name }} ({{ pokemon.location }})</p>
-<p>Status: {% if caught %}Caught{% else %}Not caught{% endif %}</p>
-<form method="post">
-  <button name="action" value="prev">Prev</button>
-  <button name="action" value="toggle">{% if caught %}Unmark{% else %}Mark Caught{% endif %}</button>
-  <button name="action" value="next">Next</button>
-</form>
-<p><a href="{{ url_for('select') }}">Change game</a></p>
-<p><a href="{{ url_for('display') }}" target="_blank">Open display</a></p>
+<html>
+  <head>
+    <title>Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <h1>{{ state.generation }} - {{ state.game }}</h1>
+    <p>Current: <strong>{{ pokemon.name }}</strong> ({{ pokemon.location }})</p>
+    <p>Status: {% if caught %}Caught{% else %}Not caught{% endif %}</p>
+    <form method="post">
+      <button name="action" value="prev">Prev</button>
+      <button name="action" value="toggle">{% if caught %}Unmark{% else %}Mark Caught{% endif %}</button>
+      <button name="action" value="next">Next</button>
+    </form>
+    <p><a href="{{ url_for('select') }}">Change game</a></p>
+    <p><a href="{{ url_for('display') }}" target="_blank">Open display</a></p>
+  </body>
+</html>
