@@ -69,3 +69,12 @@ body.dark-mode {
 #dex-table tr.current {
     outline: 2px solid red;
 }
+
+#dex-table tr.section {
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+#dex-table tr.section th {
+    text-align: left;
+}

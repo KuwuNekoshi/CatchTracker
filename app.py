@@ -188,7 +188,9 @@ def tracker():
     state = load_state()
     game_list = ordered_game_list(state)
     dex_list = full_dex_list(state["generation"])
+    sort = request.args.get("sort", "dex")
     if request.method == "POST":
+        sort = request.form.get("sort", "dex")
         action = request.form["action"]
         if action == "next" and state["index"] < len(game_list) - 1:
             state["index"] += 1
@@ -199,15 +201,23 @@ def tracker():
             key = str(poke)
             state["caught"][key] = not state["caught"].get(key, False)
         save_state(state)
+        return redirect(url_for("tracker", sort=sort))
+    catch_order_map = {p["id"]: i for i, p in enumerate(game_list)}
+    if sort == "catch":
+        dex_list.sort(key=lambda p: catch_order_map.get(p["id"], 999999))
+    caught_map = state["caught"]
+    uncaught_list = [p for p in dex_list if not caught_map.get(str(p["id"]), False)]
+    caught_list = [p for p in dex_list if caught_map.get(str(p["id"]), False)]
     poke = current_pokemon(state, game_list)
-    caught = state["caught"].get(str(poke["id"]), False)
+    caught = caught_map.get(str(poke["id"]), False)
     return render_template(
         "tracker.html",
         state=state,
         pokemon=poke,
         caught=caught,
-        dex_list=dex_list,
-        caught_map=state["caught"],
+        uncaught_list=uncaught_list,
+        caught_list=caught_list,
+        sort=sort,
     )
 
 
