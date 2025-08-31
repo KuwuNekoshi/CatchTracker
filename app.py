@@ -154,7 +154,13 @@ def select():
     state = load_state()
     if request.method == "POST":
         state["generation"] = request.form["generation"]
-        state["game"] = request.form["game"]
+        games_for_gen = []
+        for combo in GAMES[state["generation"]].keys():
+            games_for_gen.extend(combo.split("/"))
+        game = request.form["game"]
+        if game not in games_for_gen:
+            game = games_for_gen[0]
+        state["game"] = game
         state["index"] = 0
         save_state(state)
         return redirect(url_for("tracker"))
@@ -168,6 +174,8 @@ def select():
 def current_pokemon(state, game_list=None):
     if game_list is None:
         game_list = ordered_game_list(state)
+    if not game_list:
+        return {"id": 0, "name": "Unknown", "location": "", "img_url": ""}
     if state["index"] < 0:
         state["index"] = 0
     if state["index"] >= len(game_list):
@@ -216,6 +224,15 @@ def display():
 def current_index():
     state = load_state()
     return {"index": state["index"]}
+
+
+@app.route("/games/<generation>")
+def games_for_generation(generation):
+    games_for_gen = []
+    if generation in GAMES:
+        for combo in GAMES[generation].keys():
+            games_for_gen.extend(combo.split("/"))
+    return {"games": games_for_gen}
 
 
 if __name__ == "__main__":
