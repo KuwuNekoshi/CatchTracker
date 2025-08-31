@@ -1,5 +1,8 @@
 import json
 import os
+import re
+import threading
+import webbrowser
 from flask import Flask, redirect, render_template, request, url_for
 import requests
 
@@ -26,6 +29,21 @@ def save_state(state):
         json.dump(state, f, indent=2)
 
 
+def ordered_game_list(state):
+    game_list = GAMES[state["generation"]][state["game"]]
+
+    def sort_key(entry):
+        loc = entry["location"].lower()
+        if "starter" in loc:
+            return (-1, entry["name"])
+        match = re.search(r"route\s*(\d+)", loc)
+        if match:
+            return (int(match.group(1)), entry["name"])
+        return (9999, entry["name"])
+
+    return sorted(game_list, key=sort_key)
+
+
 @app.route("/select", methods=["GET", "POST"])
 def select():
     state = load_state()
@@ -40,8 +58,9 @@ def select():
     return render_template("select.html", generations=generations, games=games_for_gen, state=state)
 
 
-def current_pokemon(state):
-    game_list = GAMES[state["generation"]][state["game"]]
+def current_pokemon(state, game_list=None):
+    if game_list is None:
+        game_list = ordered_game_list(state)
     if state["index"] < 0:
         state["index"] = 0
     if state["index"] >= len(game_list):
@@ -52,7 +71,7 @@ def current_pokemon(state):
 @app.route("/tracker", methods=["GET", "POST"])
 def tracker():
     state = load_state()
-    game_list = GAMES[state["generation"]][state["game"]]
+    game_list = ordered_game_list(state)
     if request.method == "POST":
         action = request.form["action"]
         if action == "next" and state["index"] < len(game_list) - 1:
@@ -63,7 +82,7 @@ def tracker():
             poke = current_pokemon(state)["name"]
             state["caught"][poke] = not state["caught"].get(poke, False)
         save_state(state)
-    poke = current_pokemon(state)
+    poke = current_pokemon(state, game_list)
     caught = state["caught"].get(poke["name"], False)
     return render_template("tracker.html", state=state, pokemon=poke, caught=caught)
 
@@ -71,7 +90,8 @@ def tracker():
 @app.route("/display")
 def display():
     state = load_state()
-    poke = current_pokemon(state)
+    game_list = ordered_game_list(state)
+    poke = current_pokemon(state, game_list)
     name = poke["name"].lower()
     # fetch id from pokeapi
     try:
@@ -83,8 +103,22 @@ def display():
             img_url = ""
     except Exception:
         img_url = ""
-    return render_template("display.html", pokemon=poke, img_url=img_url)
+    return render_template("display.html", pokemon=poke, img_url=img_url, index=state["index"])
+
+
+@app.route("/current_index")
+def current_index():
+    state = load_state()
+    return {"index": state["index"]}
 
 
 if __name__ == "__main__":
+    def open_browser():
+        try:
+            webbrowser.open_new("http://127.0.0.1:5000/tracker")
+            webbrowser.open_new("http://127.0.0.1:5000/display")
+        except Exception:
+            pass
+
+    threading.Timer(1.0, open_browser).start()
     app.run(debug=True)
