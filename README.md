@@ -2,6 +2,8 @@
 
 A simple local web app to track your progress towards a full living Pokédex while streaming.
 
+Current data includes Generation I (Red/Blue, Yellow) and Generation II (Gold/Silver, Crystal) games.
+
 ## Quick Start
 1. **Install Python 3** (https://www.python.org/downloads/)
 2. **Download or clone this repository**
