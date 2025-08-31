@@ -8,6 +8,13 @@ body {
     text-align: center;
 }
 
+body.transparent {
+    background-color: transparent;
+    margin: 0;
+    max-width: none;
+    padding: 0;
+}
+
 h1 {
     margin-bottom: 20px;
 }
@@ -16,7 +23,7 @@ form {
     margin-top: 20px;
 }
 
-button, select {
+button, select, input {
     padding: 8px 12px;
     font-size: 1rem;
     margin: 0 5px;
@@ -35,4 +42,30 @@ body.dark-mode {
     --bg-color: #121212;
     --text-color: #eee;
     --link-color: #4da3ff;
+}
+
+#dex-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#dex-table th,
+#dex-table td {
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+}
+
+#dex-table img {
+    display: block;
+    margin: 0 auto;
+}
+
+#dex-table tr.caught {
+    opacity: 0.5;
+}
+
+#dex-table tr.current {
+    outline: 2px solid red;
 }

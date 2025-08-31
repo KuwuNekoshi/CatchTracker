@@ -4,15 +4,12 @@
     <title>Display</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   </head>
-  <body>
-    <h1>{{ pokemon.name }}</h1>
-    <button id="theme-toggle"></button>
+  <body class="transparent">
     {% if img_url %}
     <img src="{{ img_url }}" alt="{{ pokemon.name }}">
     {% else %}
     <p>No image available.</p>
     {% endif %}
-    <script src="{{ url_for('static', filename='theme.js') }}"></script>
     <script>
       let currentIndex = {{ index }};
       setInterval(function () {

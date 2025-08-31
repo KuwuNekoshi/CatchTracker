@@ -16,6 +16,41 @@
     </form>
     <p><a href="{{ url_for('select') }}">Change game</a></p>
     <p><a href="{{ url_for('display') }}" target="_blank">Open display</a></p>
+    <input type="text" id="search" placeholder="Search Pokémon">
+    <table id="dex-table">
+      <thead>
+        <tr>
+          <th>DexID</th>
+          <th>Sprite</th>
+          <th>Name</th>
+          <th>Generation(s)</th>
+          <th>Game(s)</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for p in dex_list %}
+        <tr data-name="{{ p.name | lower }}" class="{% if p.id == pokemon.id %}current{% endif %}{% if caught_map.get(p.id|string)%} caught{% endif %}">
+          <td>{{ '%03d'|format(p.id) }}</td>
+          <td>{% if p.img_url %}<img src="{{ p.img_url }}" alt="{{ p.name }}">{% endif %}</td>
+          <td>{{ p.name }}</td>
+          <td>{{ ', '.join(p.generations) }}</td>
+          <td>{{ ', '.join(p.games) }}</td>
+          <td>{{ p.locations.get(state.game, '') }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
     <script src="{{ url_for('static', filename='theme.js') }}"></script>
+    <script>
+      const search = document.getElementById('search');
+      search.addEventListener('input', function () {
+        const term = this.value.toLowerCase();
+        document.querySelectorAll('#dex-table tbody tr').forEach(tr => {
+          tr.style.display = tr.dataset.name.includes(term) ? '' : 'none';
+        });
+      });
+    </script>
   </body>
 </html>
+
