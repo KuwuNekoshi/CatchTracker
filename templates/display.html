@@ -1,8 +1,15 @@
 <!doctype html>
-<title>Display</title>
-<h1>{{ pokemon.name }}</h1>
-{% if img_url %}
-<img src="{{ img_url }}" alt="{{ pokemon.name }}">
-{% else %}
-<p>No image available.</p>
-{% endif %}
+<html>
+  <head>
+    <title>Display</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <h1>{{ pokemon.name }}</h1>
+    {% if img_url %}
+    <img src="{{ img_url }}" alt="{{ pokemon.name }}">
+    {% else %}
+    <p>No image available.</p>
+    {% endif %}
+  </body>
+</html>

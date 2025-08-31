@@ -1,5 +1,7 @@
 import json
 import os
+import threading
+import webbrowser
 from flask import Flask, redirect, render_template, request, url_for
 import requests
 
@@ -87,4 +89,12 @@ def display():
 
 
 if __name__ == "__main__":
+    def open_browser():
+        try:
+            webbrowser.open_new("http://127.0.0.1:5000/tracker")
+            webbrowser.open_new("http://127.0.0.1:5000/display")
+        except Exception:
+            pass
+
+    threading.Timer(1.0, open_browser).start()
     app.run(debug=True)
