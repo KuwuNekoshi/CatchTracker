@@ -6,10 +6,22 @@
   </head>
   <body>
     <h1>{{ pokemon.name }}</h1>
+    <button id="theme-toggle"></button>
     {% if img_url %}
     <img src="{{ img_url }}" alt="{{ pokemon.name }}">
     {% else %}
     <p>No image available.</p>
     {% endif %}
+    <script src="{{ url_for('static', filename='theme.js') }}"></script>
+    <script>
+      let currentIndex = {{ index }};
+      setInterval(function () {
+        fetch("{{ url_for('current_index') }}").then(r => r.json()).then(data => {
+          if (data.index !== currentIndex) {
+            location.reload();
+          }
+        });
+      }, 2000);
+    </script>
   </body>
 </html>
