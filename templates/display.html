@@ -1,0 +1,8 @@
+<!doctype html>
+<title>Display</title>
+<h1>{{ pokemon.name }}</h1>
+{% if img_url %}
+<img src="{{ img_url }}" alt="{{ pokemon.name }}">
+{% else %}
+<p>No image available.</p>
+{% endif %}
