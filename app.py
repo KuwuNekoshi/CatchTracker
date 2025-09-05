@@ -221,6 +221,20 @@ def tracker():
     )
 
 
+@app.route("/set_current", methods=["POST"])
+def set_current():
+    data = request.get_json()
+    poke_id = int(data.get("id", -1))
+    state = load_state()
+    game_list = ordered_game_list(state)
+    for i, p in enumerate(game_list):
+        if p["id"] == poke_id:
+            state["index"] = i
+            save_state(state)
+            break
+    return "", 204
+
+
 @app.route("/display")
 def display():
     state = load_state()
