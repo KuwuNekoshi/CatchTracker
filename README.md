@@ -2,7 +2,7 @@
 
 A simple local web app to track your progress towards a full living Pokédex while streaming.
 
-Current data includes Generation I (Red/Blue, Yellow) and Generation II (Gold/Silver, Crystal) games.
+Current data includes Generation I (Red/Blue, Yellow), Generation II (Gold/Silver, Crystal), and Generation III (Ruby/Sapphire, FireRed/LeafGreen, Emerald) games.
 
 ## Quick Start
 1. **Install Python 3** (https://www.python.org/downloads/)

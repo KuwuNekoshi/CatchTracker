@@ -114,24 +114,24 @@
         "location": "Evolve Sandshrew"
       },
       {
-        "name": "Nidoran\u2640",
+        "name": "Nidoran♀",
         "location": "Route 22"
       },
       {
         "name": "Nidorina",
-        "location": "Evolve Nidoran\u2640"
+        "location": "Evolve Nidoran♀"
       },
       {
         "name": "Nidoqueen",
         "location": "Evolve Nidorina"
       },
       {
-        "name": "Nidoran\u2642",
+        "name": "Nidoran♂",
         "location": "Route 22"
       },
       {
         "name": "Nidorino",
-        "location": "Evolve Nidoran\u2642"
+        "location": "Evolve Nidoran♂"
       },
       {
         "name": "Nidoking",
@@ -720,24 +720,24 @@
         "location": "Evolve Sandshrew"
       },
       {
-        "name": "Nidoran\u2640",
+        "name": "Nidoran♀",
         "location": "Route 22"
       },
       {
         "name": "Nidorina",
-        "location": "Evolve Nidoran\u2640"
+        "location": "Evolve Nidoran♀"
       },
       {
         "name": "Nidoqueen",
         "location": "Evolve Nidorina"
       },
       {
-        "name": "Nidoran\u2642",
+        "name": "Nidoran♂",
         "location": "Route 22"
       },
       {
         "name": "Nidorino",
-        "location": "Evolve Nidoran\u2642"
+        "location": "Evolve Nidoran♂"
       },
       {
         "name": "Nidoking",
@@ -2016,6 +2016,1102 @@
       {
         "name": "Celebi",
         "location": "Ilex Forest Shrine"
+      }
+    ]
+  },
+  "Generation III": {
+    "Ruby/Sapphire": [
+      {
+        "name": "Treecko",
+        "location": "Starter"
+      },
+      {
+        "name": "Grovyle",
+        "location": "Evolve Treecko"
+      },
+      {
+        "name": "Sceptile",
+        "location": "Evolve Grovyle"
+      },
+      {
+        "name": "Torchic",
+        "location": "Starter"
+      },
+      {
+        "name": "Combusken",
+        "location": "Evolve Torchic"
+      },
+      {
+        "name": "Blaziken",
+        "location": "Evolve Combusken"
+      },
+      {
+        "name": "Mudkip",
+        "location": "Starter"
+      },
+      {
+        "name": "Marshtomp",
+        "location": "Evolve Mudkip"
+      },
+      {
+        "name": "Swampert",
+        "location": "Evolve Marshtomp"
+      },
+      {
+        "name": "Poochyena",
+        "location": "Route 101"
+      },
+      {
+        "name": "Mightyena",
+        "location": "Evolve Poochyena"
+      },
+      {
+        "name": "Zigzagoon",
+        "location": "Route 101"
+      },
+      {
+        "name": "Linoone",
+        "location": "Evolve Zigzagoon"
+      },
+      {
+        "name": "Wurmple",
+        "location": "Routes 101-102"
+      },
+      {
+        "name": "Silcoon",
+        "location": "Evolve Wurmple"
+      },
+      {
+        "name": "Beautifly",
+        "location": "Evolve Silcoon"
+      },
+      {
+        "name": "Cascoon",
+        "location": "Evolve Wurmple"
+      },
+      {
+        "name": "Dustox",
+        "location": "Evolve Cascoon"
+      },
+      {
+        "name": "Lotad",
+        "location": "Route 102 (Sapphire)"
+      },
+      {
+        "name": "Lombre",
+        "location": "Evolve Lotad"
+      },
+      {
+        "name": "Ludicolo",
+        "location": "Evolve Lombre"
+      },
+      {
+        "name": "Seedot",
+        "location": "Route 102 (Ruby)"
+      },
+      {
+        "name": "Nuzleaf",
+        "location": "Evolve Seedot"
+      },
+      {
+        "name": "Shiftry",
+        "location": "Evolve Nuzleaf"
+      },
+      {
+        "name": "Taillow",
+        "location": "Route 104"
+      },
+      {
+        "name": "Swellow",
+        "location": "Evolve Taillow"
+      },
+      {
+        "name": "Wingull",
+        "location": "Route 103"
+      },
+      {
+        "name": "Pelipper",
+        "location": "Evolve Wingull"
+      },
+      {
+        "name": "Ralts",
+        "location": "Route 102"
+      },
+      {
+        "name": "Kirlia",
+        "location": "Evolve Ralts"
+      },
+      {
+        "name": "Gardevoir",
+        "location": "Evolve Kirlia"
+      },
+      {
+        "name": "Surskit",
+        "location": "Route 102 (swarm)"
+      },
+      {
+        "name": "Masquerain",
+        "location": "Evolve Surskit"
+      },
+      {
+        "name": "Shroomish",
+        "location": "Petalburg Woods"
+      },
+      {
+        "name": "Breloom",
+        "location": "Evolve Shroomish"
+      },
+      {
+        "name": "Slakoth",
+        "location": "Petalburg Woods"
+      },
+      {
+        "name": "Vigoroth",
+        "location": "Evolve Slakoth"
+      },
+      {
+        "name": "Slaking",
+        "location": "Evolve Vigoroth"
+      },
+      {
+        "name": "Nincada",
+        "location": "Route 116"
+      },
+      {
+        "name": "Ninjask",
+        "location": "Evolve Nincada"
+      },
+      {
+        "name": "Shedinja",
+        "location": "Evolve Nincada"
+      },
+      {
+        "name": "Whismur",
+        "location": "Rusturf Tunnel"
+      },
+      {
+        "name": "Loudred",
+        "location": "Evolve Whismur"
+      },
+      {
+        "name": "Exploud",
+        "location": "Evolve Loudred"
+      },
+      {
+        "name": "Makuhita",
+        "location": "Granite Cave"
+      },
+      {
+        "name": "Hariyama",
+        "location": "Evolve Makuhita"
+      },
+      {
+        "name": "Azurill",
+        "location": "Breed Marill"
+      },
+      {
+        "name": "Nosepass",
+        "location": "Granite Cave"
+      },
+      {
+        "name": "Skitty",
+        "location": "Route 116"
+      },
+      {
+        "name": "Delcatty",
+        "location": "Evolve Skitty"
+      },
+      {
+        "name": "Sableye",
+        "location": "Granite Cave (Sapphire)"
+      },
+      {
+        "name": "Mawile",
+        "location": "Granite Cave (Ruby)"
+      },
+      {
+        "name": "Aron",
+        "location": "Granite Cave"
+      },
+      {
+        "name": "Lairon",
+        "location": "Evolve Aron"
+      },
+      {
+        "name": "Aggron",
+        "location": "Evolve Lairon"
+      },
+      {
+        "name": "Meditite",
+        "location": "Mt. Pyre slopes"
+      },
+      {
+        "name": "Medicham",
+        "location": "Evolve Meditite"
+      },
+      {
+        "name": "Electrike",
+        "location": "Route 110"
+      },
+      {
+        "name": "Manectric",
+        "location": "Evolve Electrike"
+      },
+      {
+        "name": "Plusle",
+        "location": "Route 110 (Ruby)"
+      },
+      {
+        "name": "Minun",
+        "location": "Route 110 (Sapphire)"
+      },
+      {
+        "name": "Volbeat",
+        "location": "Route 117 (Ruby)"
+      },
+      {
+        "name": "Illumise",
+        "location": "Route 117 (Sapphire)"
+      },
+      {
+        "name": "Roselia",
+        "location": "Route 117"
+      },
+      {
+        "name": "Gulpin",
+        "location": "Route 110"
+      },
+      {
+        "name": "Swalot",
+        "location": "Evolve Gulpin"
+      },
+      {
+        "name": "Carvanha",
+        "location": "Route 118 water"
+      },
+      {
+        "name": "Sharpedo",
+        "location": "Evolve Carvanha"
+      },
+      {
+        "name": "Wailmer",
+        "location": "Route 110 water"
+      },
+      {
+        "name": "Wailord",
+        "location": "Evolve Wailmer"
+      },
+      {
+        "name": "Numel",
+        "location": "Fiery Path"
+      },
+      {
+        "name": "Camerupt",
+        "location": "Evolve Numel"
+      },
+      {
+        "name": "Torkoal",
+        "location": "Fiery Path"
+      },
+      {
+        "name": "Spoink",
+        "location": "Jagged Pass"
+      },
+      {
+        "name": "Grumpig",
+        "location": "Evolve Spoink"
+      },
+      {
+        "name": "Spinda",
+        "location": "Route 113"
+      },
+      {
+        "name": "Trapinch",
+        "location": "Route 111 desert"
+      },
+      {
+        "name": "Vibrava",
+        "location": "Evolve Trapinch"
+      },
+      {
+        "name": "Flygon",
+        "location": "Evolve Vibrava"
+      },
+      {
+        "name": "Cacnea",
+        "location": "Route 111 desert"
+      },
+      {
+        "name": "Cacturne",
+        "location": "Evolve Cacnea"
+      },
+      {
+        "name": "Swablu",
+        "location": "Route 114"
+      },
+      {
+        "name": "Altaria",
+        "location": "Evolve Swablu"
+      },
+      {
+        "name": "Zangoose",
+        "location": "Route 114 (Ruby)"
+      },
+      {
+        "name": "Seviper",
+        "location": "Route 114 (Sapphire)"
+      },
+      {
+        "name": "Lunatone",
+        "location": "Meteor Falls (Sapphire)"
+      },
+      {
+        "name": "Solrock",
+        "location": "Meteor Falls (Ruby)"
+      },
+      {
+        "name": "Barboach",
+        "location": "Route 111 (fishing)"
+      },
+      {
+        "name": "Whiscash",
+        "location": "Evolve Barboach"
+      },
+      {
+        "name": "Corphish",
+        "location": "Route 102 (fishing)"
+      },
+      {
+        "name": "Crawdaunt",
+        "location": "Evolve Corphish"
+      },
+      {
+        "name": "Baltoy",
+        "location": "Route 111 desert"
+      },
+      {
+        "name": "Claydol",
+        "location": "Evolve Baltoy"
+      },
+      {
+        "name": "Lileep",
+        "location": "Root Fossil"
+      },
+      {
+        "name": "Cradily",
+        "location": "Evolve Lileep"
+      },
+      {
+        "name": "Anorith",
+        "location": "Claw Fossil"
+      },
+      {
+        "name": "Armaldo",
+        "location": "Evolve Anorith"
+      },
+      {
+        "name": "Feebas",
+        "location": "Route 119 water"
+      },
+      {
+        "name": "Milotic",
+        "location": "Evolve Feebas"
+      },
+      {
+        "name": "Castform",
+        "location": "Weather Institute gift"
+      },
+      {
+        "name": "Kecleon",
+        "location": "Route 119"
+      },
+      {
+        "name": "Shuppet",
+        "location": "Mt. Pyre exterior"
+      },
+      {
+        "name": "Banette",
+        "location": "Evolve Shuppet"
+      },
+      {
+        "name": "Duskull",
+        "location": "Mt. Pyre interior"
+      },
+      {
+        "name": "Dusclops",
+        "location": "Evolve Duskull"
+      },
+      {
+        "name": "Tropius",
+        "location": "Route 119"
+      },
+      {
+        "name": "Chimecho",
+        "location": "Mt. Pyre summit"
+      },
+      {
+        "name": "Absol",
+        "location": "Route 120"
+      },
+      {
+        "name": "Wynaut",
+        "location": "Lavaridge Town egg"
+      },
+      {
+        "name": "Snorunt",
+        "location": "Shoal Cave"
+      },
+      {
+        "name": "Glalie",
+        "location": "Evolve Snorunt"
+      },
+      {
+        "name": "Spheal",
+        "location": "Shoal Cave"
+      },
+      {
+        "name": "Sealeo",
+        "location": "Evolve Spheal"
+      },
+      {
+        "name": "Walrein",
+        "location": "Evolve Sealeo"
+      },
+      {
+        "name": "Clamperl",
+        "location": "Route 124 (fishing)"
+      },
+      {
+        "name": "Huntail",
+        "location": "Evolve Clamperl"
+      },
+      {
+        "name": "Gorebyss",
+        "location": "Evolve Clamperl"
+      },
+      {
+        "name": "Relicanth",
+        "location": "Underwater routes"
+      },
+      {
+        "name": "Luvdisc",
+        "location": "Route 128 (fishing)"
+      },
+      {
+        "name": "Bagon",
+        "location": "Meteor Falls basement"
+      },
+      {
+        "name": "Shelgon",
+        "location": "Evolve Bagon"
+      },
+      {
+        "name": "Salamence",
+        "location": "Evolve Shelgon"
+      },
+      {
+        "name": "Beldum",
+        "location": "Steven's house gift"
+      },
+      {
+        "name": "Metang",
+        "location": "Evolve Beldum"
+      },
+      {
+        "name": "Metagross",
+        "location": "Evolve Metang"
+      },
+      {
+        "name": "Regirock",
+        "location": "Desert Ruins"
+      },
+      {
+        "name": "Regice",
+        "location": "Island Cave"
+      },
+      {
+        "name": "Registeel",
+        "location": "Ancient Tomb"
+      },
+      {
+        "name": "Latias",
+        "location": "Southern Island event"
+      },
+      {
+        "name": "Latios",
+        "location": "Southern Island event"
+      },
+      {
+        "name": "Kyogre",
+        "location": "Marine Cave (Sapphire)"
+      },
+      {
+        "name": "Groudon",
+        "location": "Terra Cave (Ruby)"
+      },
+      {
+        "name": "Rayquaza",
+        "location": "Sky Pillar"
+      },
+      {
+        "name": "Jirachi",
+        "location": "Event"
+      },
+      {
+        "name": "Deoxys",
+        "location": "Birth Island event"
+      }
+    ],
+    "FireRed/LeafGreen": [
+      {
+        "name": "Jirachi",
+        "location": "Event"
+      },
+      {
+        "name": "Deoxys",
+        "location": "Birth Island event"
+      }
+    ],
+    "Emerald": [
+      {
+        "name": "Treecko",
+        "location": "Starter"
+      },
+      {
+        "name": "Grovyle",
+        "location": "Evolve Treecko"
+      },
+      {
+        "name": "Sceptile",
+        "location": "Evolve Grovyle"
+      },
+      {
+        "name": "Torchic",
+        "location": "Starter"
+      },
+      {
+        "name": "Combusken",
+        "location": "Evolve Torchic"
+      },
+      {
+        "name": "Blaziken",
+        "location": "Evolve Combusken"
+      },
+      {
+        "name": "Mudkip",
+        "location": "Starter"
+      },
+      {
+        "name": "Marshtomp",
+        "location": "Evolve Mudkip"
+      },
+      {
+        "name": "Swampert",
+        "location": "Evolve Marshtomp"
+      },
+      {
+        "name": "Poochyena",
+        "location": "Route 101"
+      },
+      {
+        "name": "Mightyena",
+        "location": "Evolve Poochyena"
+      },
+      {
+        "name": "Zigzagoon",
+        "location": "Route 101"
+      },
+      {
+        "name": "Linoone",
+        "location": "Evolve Zigzagoon"
+      },
+      {
+        "name": "Wurmple",
+        "location": "Routes 101-102"
+      },
+      {
+        "name": "Silcoon",
+        "location": "Evolve Wurmple"
+      },
+      {
+        "name": "Beautifly",
+        "location": "Evolve Silcoon"
+      },
+      {
+        "name": "Cascoon",
+        "location": "Evolve Wurmple"
+      },
+      {
+        "name": "Dustox",
+        "location": "Evolve Cascoon"
+      },
+      {
+        "name": "Lotad",
+        "location": "Route 102 (Sapphire)"
+      },
+      {
+        "name": "Lombre",
+        "location": "Evolve Lotad"
+      },
+      {
+        "name": "Ludicolo",
+        "location": "Evolve Lombre"
+      },
+      {
+        "name": "Seedot",
+        "location": "Route 102 (Ruby)"
+      },
+      {
+        "name": "Nuzleaf",
+        "location": "Evolve Seedot"
+      },
+      {
+        "name": "Shiftry",
+        "location": "Evolve Nuzleaf"
+      },
+      {
+        "name": "Taillow",
+        "location": "Route 104"
+      },
+      {
+        "name": "Swellow",
+        "location": "Evolve Taillow"
+      },
+      {
+        "name": "Wingull",
+        "location": "Route 103"
+      },
+      {
+        "name": "Pelipper",
+        "location": "Evolve Wingull"
+      },
+      {
+        "name": "Ralts",
+        "location": "Route 102"
+      },
+      {
+        "name": "Kirlia",
+        "location": "Evolve Ralts"
+      },
+      {
+        "name": "Gardevoir",
+        "location": "Evolve Kirlia"
+      },
+      {
+        "name": "Surskit",
+        "location": "Route 102 (swarm)"
+      },
+      {
+        "name": "Masquerain",
+        "location": "Evolve Surskit"
+      },
+      {
+        "name": "Shroomish",
+        "location": "Petalburg Woods"
+      },
+      {
+        "name": "Breloom",
+        "location": "Evolve Shroomish"
+      },
+      {
+        "name": "Slakoth",
+        "location": "Petalburg Woods"
+      },
+      {
+        "name": "Vigoroth",
+        "location": "Evolve Slakoth"
+      },
+      {
+        "name": "Slaking",
+        "location": "Evolve Vigoroth"
+      },
+      {
+        "name": "Nincada",
+        "location": "Route 116"
+      },
+      {
+        "name": "Ninjask",
+        "location": "Evolve Nincada"
+      },
+      {
+        "name": "Shedinja",
+        "location": "Evolve Nincada"
+      },
+      {
+        "name": "Whismur",
+        "location": "Rusturf Tunnel"
+      },
+      {
+        "name": "Loudred",
+        "location": "Evolve Whismur"
+      },
+      {
+        "name": "Exploud",
+        "location": "Evolve Loudred"
+      },
+      {
+        "name": "Makuhita",
+        "location": "Granite Cave"
+      },
+      {
+        "name": "Hariyama",
+        "location": "Evolve Makuhita"
+      },
+      {
+        "name": "Azurill",
+        "location": "Breed Marill"
+      },
+      {
+        "name": "Nosepass",
+        "location": "Granite Cave"
+      },
+      {
+        "name": "Skitty",
+        "location": "Route 116"
+      },
+      {
+        "name": "Delcatty",
+        "location": "Evolve Skitty"
+      },
+      {
+        "name": "Sableye",
+        "location": "Granite Cave (Sapphire)"
+      },
+      {
+        "name": "Mawile",
+        "location": "Granite Cave (Ruby)"
+      },
+      {
+        "name": "Aron",
+        "location": "Granite Cave"
+      },
+      {
+        "name": "Lairon",
+        "location": "Evolve Aron"
+      },
+      {
+        "name": "Aggron",
+        "location": "Evolve Lairon"
+      },
+      {
+        "name": "Meditite",
+        "location": "Mt. Pyre slopes"
+      },
+      {
+        "name": "Medicham",
+        "location": "Evolve Meditite"
+      },
+      {
+        "name": "Electrike",
+        "location": "Route 110"
+      },
+      {
+        "name": "Manectric",
+        "location": "Evolve Electrike"
+      },
+      {
+        "name": "Plusle",
+        "location": "Route 110 (Ruby)"
+      },
+      {
+        "name": "Minun",
+        "location": "Route 110 (Sapphire)"
+      },
+      {
+        "name": "Volbeat",
+        "location": "Route 117 (Ruby)"
+      },
+      {
+        "name": "Illumise",
+        "location": "Route 117 (Sapphire)"
+      },
+      {
+        "name": "Roselia",
+        "location": "Route 117"
+      },
+      {
+        "name": "Gulpin",
+        "location": "Route 110"
+      },
+      {
+        "name": "Swalot",
+        "location": "Evolve Gulpin"
+      },
+      {
+        "name": "Carvanha",
+        "location": "Route 118 water"
+      },
+      {
+        "name": "Sharpedo",
+        "location": "Evolve Carvanha"
+      },
+      {
+        "name": "Wailmer",
+        "location": "Route 110 water"
+      },
+      {
+        "name": "Wailord",
+        "location": "Evolve Wailmer"
+      },
+      {
+        "name": "Numel",
+        "location": "Fiery Path"
+      },
+      {
+        "name": "Camerupt",
+        "location": "Evolve Numel"
+      },
+      {
+        "name": "Torkoal",
+        "location": "Fiery Path"
+      },
+      {
+        "name": "Spoink",
+        "location": "Jagged Pass"
+      },
+      {
+        "name": "Grumpig",
+        "location": "Evolve Spoink"
+      },
+      {
+        "name": "Spinda",
+        "location": "Route 113"
+      },
+      {
+        "name": "Trapinch",
+        "location": "Route 111 desert"
+      },
+      {
+        "name": "Vibrava",
+        "location": "Evolve Trapinch"
+      },
+      {
+        "name": "Flygon",
+        "location": "Evolve Vibrava"
+      },
+      {
+        "name": "Cacnea",
+        "location": "Route 111 desert"
+      },
+      {
+        "name": "Cacturne",
+        "location": "Evolve Cacnea"
+      },
+      {
+        "name": "Swablu",
+        "location": "Route 114"
+      },
+      {
+        "name": "Altaria",
+        "location": "Evolve Swablu"
+      },
+      {
+        "name": "Zangoose",
+        "location": "Route 114 (Ruby)"
+      },
+      {
+        "name": "Seviper",
+        "location": "Route 114 (Sapphire)"
+      },
+      {
+        "name": "Lunatone",
+        "location": "Meteor Falls (Sapphire)"
+      },
+      {
+        "name": "Solrock",
+        "location": "Meteor Falls (Ruby)"
+      },
+      {
+        "name": "Barboach",
+        "location": "Route 111 (fishing)"
+      },
+      {
+        "name": "Whiscash",
+        "location": "Evolve Barboach"
+      },
+      {
+        "name": "Corphish",
+        "location": "Route 102 (fishing)"
+      },
+      {
+        "name": "Crawdaunt",
+        "location": "Evolve Corphish"
+      },
+      {
+        "name": "Baltoy",
+        "location": "Route 111 desert"
+      },
+      {
+        "name": "Claydol",
+        "location": "Evolve Baltoy"
+      },
+      {
+        "name": "Lileep",
+        "location": "Root Fossil"
+      },
+      {
+        "name": "Cradily",
+        "location": "Evolve Lileep"
+      },
+      {
+        "name": "Anorith",
+        "location": "Claw Fossil"
+      },
+      {
+        "name": "Armaldo",
+        "location": "Evolve Anorith"
+      },
+      {
+        "name": "Feebas",
+        "location": "Route 119 water"
+      },
+      {
+        "name": "Milotic",
+        "location": "Evolve Feebas"
+      },
+      {
+        "name": "Castform",
+        "location": "Weather Institute gift"
+      },
+      {
+        "name": "Kecleon",
+        "location": "Route 119"
+      },
+      {
+        "name": "Shuppet",
+        "location": "Mt. Pyre exterior"
+      },
+      {
+        "name": "Banette",
+        "location": "Evolve Shuppet"
+      },
+      {
+        "name": "Duskull",
+        "location": "Mt. Pyre interior"
+      },
+      {
+        "name": "Dusclops",
+        "location": "Evolve Duskull"
+      },
+      {
+        "name": "Tropius",
+        "location": "Route 119"
+      },
+      {
+        "name": "Chimecho",
+        "location": "Mt. Pyre summit"
+      },
+      {
+        "name": "Absol",
+        "location": "Route 120"
+      },
+      {
+        "name": "Wynaut",
+        "location": "Lavaridge Town egg"
+      },
+      {
+        "name": "Snorunt",
+        "location": "Shoal Cave"
+      },
+      {
+        "name": "Glalie",
+        "location": "Evolve Snorunt"
+      },
+      {
+        "name": "Spheal",
+        "location": "Shoal Cave"
+      },
+      {
+        "name": "Sealeo",
+        "location": "Evolve Spheal"
+      },
+      {
+        "name": "Walrein",
+        "location": "Evolve Sealeo"
+      },
+      {
+        "name": "Clamperl",
+        "location": "Route 124 (fishing)"
+      },
+      {
+        "name": "Huntail",
+        "location": "Evolve Clamperl"
+      },
+      {
+        "name": "Gorebyss",
+        "location": "Evolve Clamperl"
+      },
+      {
+        "name": "Relicanth",
+        "location": "Underwater routes"
+      },
+      {
+        "name": "Luvdisc",
+        "location": "Route 128 (fishing)"
+      },
+      {
+        "name": "Bagon",
+        "location": "Meteor Falls basement"
+      },
+      {
+        "name": "Shelgon",
+        "location": "Evolve Bagon"
+      },
+      {
+        "name": "Salamence",
+        "location": "Evolve Shelgon"
+      },
+      {
+        "name": "Beldum",
+        "location": "Steven's house gift"
+      },
+      {
+        "name": "Metang",
+        "location": "Evolve Beldum"
+      },
+      {
+        "name": "Metagross",
+        "location": "Evolve Metang"
+      },
+      {
+        "name": "Regirock",
+        "location": "Desert Ruins"
+      },
+      {
+        "name": "Regice",
+        "location": "Island Cave"
+      },
+      {
+        "name": "Registeel",
+        "location": "Ancient Tomb"
+      },
+      {
+        "name": "Latias",
+        "location": "Southern Island event"
+      },
+      {
+        "name": "Latios",
+        "location": "Southern Island event"
+      },
+      {
+        "name": "Kyogre",
+        "location": "Marine Cave (Sapphire)"
+      },
+      {
+        "name": "Groudon",
+        "location": "Terra Cave (Ruby)"
+      },
+      {
+        "name": "Rayquaza",
+        "location": "Sky Pillar"
+      },
+      {
+        "name": "Jirachi",
+        "location": "Event"
+      },
+      {
+        "name": "Deoxys",
+        "location": "Birth Island event"
       }
     ]
   }
