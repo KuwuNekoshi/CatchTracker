@@ -78,3 +78,7 @@ body.dark-mode {
 #dex-table tr.section th {
     text-align: left;
 }
+
+#dex-table tbody tr:not(.section) {
+    cursor: pointer;
+}

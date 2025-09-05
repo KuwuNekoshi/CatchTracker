@@ -39,7 +39,7 @@
       <tbody>
         <tr class="section"><th colspan="6">Uncaught</th></tr>
         {% for p in uncaught_list %}
-        <tr data-name="{{ p.name | lower }}" class="{% if p.id == pokemon.id %}current{% endif %}">
+        <tr data-name="{{ p.name | lower }}" data-id="{{ p.id }}" class="{% if p.id == pokemon.id %}current{% endif %}">
           <td>{{ '%03d'|format(p.id) }}</td>
           <td>{% if p.img_url %}<img src="{{ p.img_url }}" alt="{{ p.name }}">{% endif %}</td>
           <td>{{ p.name }}</td>
@@ -50,7 +50,7 @@
         {% endfor %}
         <tr class="section"><th colspan="6">Caught</th></tr>
         {% for p in caught_list %}
-        <tr data-name="{{ p.name | lower }}" class="caught{% if p.id == pokemon.id %} current{% endif %}">
+        <tr data-name="{{ p.name | lower }}" data-id="{{ p.id }}" class="caught{% if p.id == pokemon.id %} current{% endif %}">
           <td>{{ '%03d'|format(p.id) }}</td>
           <td>{% if p.img_url %}<img src="{{ p.img_url }}" alt="{{ p.name }}">{% endif %}</td>
           <td>{{ p.name }}</td>
@@ -69,6 +69,17 @@
         document.querySelectorAll('#dex-table tbody tr').forEach(tr => {
           if (tr.classList.contains('section')) return;
           tr.style.display = tr.dataset.name.includes(term) ? '' : 'none';
+        });
+      });
+      document.querySelectorAll('#dex-table tbody tr').forEach(tr => {
+        if (tr.classList.contains('section')) return;
+        tr.addEventListener('click', function () {
+          const id = this.dataset.id;
+          fetch("{{ url_for('set_current') }}", {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({id: id})
+          }).then(() => location.reload());
         });
       });
     </script>
