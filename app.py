@@ -108,11 +108,14 @@ def full_dex_list(filter_gen=None):
 def load_state():
     if os.path.exists(STATE_FILE):
         with open(STATE_FILE) as f:
-            return json.load(f)
+            state = json.load(f)
+        if "title_size" not in state:
+            state["title_size"] = 32
+        return state
     generation = next(iter(GAMES.keys()))
     first_combo = next(iter(GAMES[generation].keys()))
     game = first_combo.split("/")[0]
-    return {"generation": generation, "game": game, "index": 0, "caught": {}}
+    return {"generation": generation, "game": game, "index": 0, "caught": {}, "title_size": 32}
 
 
 def save_state(state):
@@ -235,19 +238,49 @@ def set_current():
     return "", 204
 
 
+@app.route("/set_title_size", methods=["POST"])
+def set_title_size():
+    data = request.get_json()
+    size = int(data.get("size", 32))
+    state = load_state()
+    state["title_size"] = size
+    save_state(state)
+    return "", 204
+
+
 @app.route("/display")
 def display():
     state = load_state()
     game_list = ordered_game_list(state)
     poke = current_pokemon(state, game_list)
     img_url = poke.get("img_url", "")
-    return render_template("display.html", pokemon=poke, img_url=img_url, index=state["index"])
+    dex_list = full_dex_list(state["generation"])
+    total_count = len(dex_list)
+    caught_count = sum(1 for p in dex_list if state["caught"].get(str(p["id"]), False))
+    title_size = state.get("title_size", 32)
+    return render_template(
+        "display.html",
+        pokemon=poke,
+        img_url=img_url,
+        index=state["index"],
+        title_size=title_size,
+        caught_count=caught_count,
+        total_count=total_count,
+    )
 
 
 @app.route("/current_index")
 def current_index():
     state = load_state()
-    return {"index": state["index"]}
+    dex_list = full_dex_list(state["generation"])
+    total_count = len(dex_list)
+    caught_count = sum(1 for p in dex_list if state["caught"].get(str(p["id"]), False))
+    return {
+        "index": state["index"],
+        "title_size": state.get("title_size", 32),
+        "caught_count": caught_count,
+        "total_count": total_count,
+    }
 
 
 @app.route("/games/<generation>")
