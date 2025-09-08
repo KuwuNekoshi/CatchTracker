@@ -5,16 +5,25 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   </head>
   <body class="transparent">
+    <div id="title" style="font-size: {{ title_size }}px;">
+      Currently Hunting<br>{{ pokemon.name }}
+    </div>
     {% if img_url %}
     <img src="{{ img_url }}" alt="{{ pokemon.name }}">
     {% else %}
     <p>No image available.</p>
     {% endif %}
+    <div id="count" style="font-size: {{ title_size }}px;">
+      {{ caught_count }}/{{ total_count }}
+    </div>
     <script>
       let currentIndex = {{ index }};
+      let currentTitleSize = {{ title_size }};
+      let currentCaught = {{ caught_count }};
+      let currentTotal = {{ total_count }};
       setInterval(function () {
         fetch("{{ url_for('current_index') }}").then(r => r.json()).then(data => {
-          if (data.index !== currentIndex) {
+          if (data.index !== currentIndex || data.title_size !== currentTitleSize || data.caught_count !== currentCaught || data.total_count !== currentTotal) {
             location.reload();
           }
         });

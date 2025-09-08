@@ -15,6 +15,10 @@ body.transparent {
     padding: 0;
 }
 
+#title, #count {
+    color: white;
+}
+
 h1 {
     margin-bottom: 20px;
 }
