@@ -11,13 +11,15 @@ app = Flask(__name__)
 DATA_FILE = os.path.join("data", "games.json")
 STATE_FILE = os.path.join("data", "state.json")
 
-with open(DATA_FILE) as f:
+# Explicitly use UTF-8 so special characters like the Nidoran symbols
+# load correctly regardless of platform defaults.
+with open(DATA_FILE, encoding="utf-8") as f:
     GAMES = json.load(f)
 KNOWN_GAMES = {g for games in GAMES.values() for combo in games.keys() for g in combo.split("/")}
 
 POKE_CACHE_FILE = os.path.join("data", "pokemon_cache.json")
 if os.path.exists(POKE_CACHE_FILE):
-    with open(POKE_CACHE_FILE) as f:
+    with open(POKE_CACHE_FILE, encoding="utf-8") as f:
         POKE_CACHE = json.load(f)
 else:
     POKE_CACHE = {}
@@ -31,23 +33,34 @@ def _api_name(name):
     return n
 
 
+# PokeAPI uses "nidoran-f" and "nidoran-m" which are sometimes tricky to
+# resolve when network access fails. Provide explicit IDs so their sprites are
+# always correct.
+SPECIAL_IDS = {
+    "nidoran-f": 29,
+    "nidoran-m": 32,
+}
+
+
 def get_poke_info(name):
     key = _api_name(name)
     if key in POKE_CACHE:
         return POKE_CACHE[key]
     try:
-        resp = requests.get(f"https://pokeapi.co/api/v2/pokemon/{key}", timeout=5)
-        if resp.ok:
-            poke_id = resp.json()["id"]
-            img_url = f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{poke_id}.png"
+        if key in SPECIAL_IDS:
+            poke_id = SPECIAL_IDS[key]
         else:
-            poke_id = 9999
-            img_url = ""
+            resp = requests.get(f"https://pokeapi.co/api/v2/pokemon/{key}", timeout=5)
+            if resp.ok:
+                poke_id = resp.json()["id"]
+            else:
+                poke_id = 9999
+        img_url = f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{poke_id}.png" if poke_id != 9999 else ""
     except Exception:
         poke_id = 9999
         img_url = ""
     POKE_CACHE[key] = {"id": poke_id, "img_url": img_url}
-    with open(POKE_CACHE_FILE, "w") as f:
+    with open(POKE_CACHE_FILE, "w", encoding="utf-8") as f:
         json.dump(POKE_CACHE, f)
     return POKE_CACHE[key]
 
@@ -107,7 +120,7 @@ def full_dex_list(filter_gen=None):
 
 def load_state():
     if os.path.exists(STATE_FILE):
-        with open(STATE_FILE) as f:
+        with open(STATE_FILE, encoding="utf-8") as f:
             state = json.load(f)
         if "title_size" not in state:
             state["title_size"] = 32
@@ -119,7 +132,7 @@ def load_state():
 
 
 def save_state(state):
-    with open(STATE_FILE, "w") as f:
+    with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2)
 
 
