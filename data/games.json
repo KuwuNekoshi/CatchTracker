@@ -1211,6 +1211,612 @@
         "name": "Mew",
         "location": "Event"
       }
+    ],
+    "Let's Go Pikachu/Let's Go Eevee": [
+      {
+        "name": "Pikachu",
+        "location": "Starter (Let's Go Pikachu)"
+      },
+      {
+        "name": "Bulbasaur",
+        "location": "Cerulean City Gift"
+      },
+      {
+        "name": "Charmander",
+        "location": "Route 24 Gift"
+      },
+      {
+        "name": "Squirtle",
+        "location": "Vermilion City Gift"
+      },
+      {
+        "name": "Ivysaur",
+        "location": "Evolve Bulbasaur"
+      },
+      {
+        "name": "Venusaur",
+        "location": "Evolve Ivysaur"
+      },
+      {
+        "name": "Charmeleon",
+        "location": "Evolve Charmander"
+      },
+      {
+        "name": "Charizard",
+        "location": "Evolve Charmeleon"
+      },
+      {
+        "name": "Wartortle",
+        "location": "Evolve Squirtle"
+      },
+      {
+        "name": "Blastoise",
+        "location": "Evolve Wartortle"
+      },
+      {
+        "name": "Caterpie",
+        "location": "Viridian Forest"
+      },
+      {
+        "name": "Metapod",
+        "location": "Viridian Forest"
+      },
+      {
+        "name": "Butterfree",
+        "location": "Evolve Metapod"
+      },
+      {
+        "name": "Weedle",
+        "location": "Viridian Forest"
+      },
+      {
+        "name": "Kakuna",
+        "location": "Viridian Forest"
+      },
+      {
+        "name": "Beedrill",
+        "location": "Evolve Kakuna"
+      },
+      {
+        "name": "Pidgey",
+        "location": "Route 1"
+      },
+      {
+        "name": "Pidgeotto",
+        "location": "Route 17"
+      },
+      {
+        "name": "Pidgeot",
+        "location": "Evolve Pidgeotto"
+      },
+      {
+        "name": "Rattata",
+        "location": "Route 1"
+      },
+      {
+        "name": "Raticate",
+        "location": "Route 16"
+      },
+      {
+        "name": "Spearow",
+        "location": "Route 22"
+      },
+      {
+        "name": "Fearow",
+        "location": "Route 17"
+      },
+      {
+        "name": "Ekans",
+        "location": "Route 4 (Red)"
+      },
+      {
+        "name": "Arbok",
+        "location": "Evolve Ekans"
+      },
+      {
+        "name": "Raichu",
+        "location": "Evolve Pikachu"
+      },
+      {
+        "name": "Sandshrew",
+        "location": "Route 4 (Blue)"
+      },
+      {
+        "name": "Sandslash",
+        "location": "Evolve Sandshrew"
+      },
+      {
+        "name": "Nidoran♀",
+        "location": "Route 22"
+      },
+      {
+        "name": "Nidorina",
+        "location": "Evolve Nidoran♀"
+      },
+      {
+        "name": "Nidoqueen",
+        "location": "Evolve Nidorina"
+      },
+      {
+        "name": "Nidoran♂",
+        "location": "Route 22"
+      },
+      {
+        "name": "Nidorino",
+        "location": "Evolve Nidoran♂"
+      },
+      {
+        "name": "Nidoking",
+        "location": "Evolve Nidorino"
+      },
+      {
+        "name": "Clefairy",
+        "location": "Mt. Moon"
+      },
+      {
+        "name": "Clefable",
+        "location": "Evolve Clefairy"
+      },
+      {
+        "name": "Vulpix",
+        "location": "Route 7 (Blue)"
+      },
+      {
+        "name": "Ninetales",
+        "location": "Evolve Vulpix"
+      },
+      {
+        "name": "Jigglypuff",
+        "location": "Route 3"
+      },
+      {
+        "name": "Wigglytuff",
+        "location": "Evolve Jigglypuff"
+      },
+      {
+        "name": "Zubat",
+        "location": "Mt. Moon"
+      },
+      {
+        "name": "Golbat",
+        "location": "Victory Road"
+      },
+      {
+        "name": "Oddish",
+        "location": "Route 24 (Red)"
+      },
+      {
+        "name": "Gloom",
+        "location": "Evolve Oddish"
+      },
+      {
+        "name": "Vileplume",
+        "location": "Evolve Gloom"
+      },
+      {
+        "name": "Paras",
+        "location": "Mt. Moon"
+      },
+      {
+        "name": "Parasect",
+        "location": "Evolve Paras"
+      },
+      {
+        "name": "Venonat",
+        "location": "Route 24"
+      },
+      {
+        "name": "Venomoth",
+        "location": "Evolve Venonat"
+      },
+      {
+        "name": "Diglett",
+        "location": "Diglett's Cave"
+      },
+      {
+        "name": "Dugtrio",
+        "location": "Diglett's Cave"
+      },
+      {
+        "name": "Meowth",
+        "location": "Route 5 (Blue)"
+      },
+      {
+        "name": "Persian",
+        "location": "Evolve Meowth"
+      },
+      {
+        "name": "Psyduck",
+        "location": "Safari Zone"
+      },
+      {
+        "name": "Golduck",
+        "location": "Evolve Psyduck"
+      },
+      {
+        "name": "Mankey",
+        "location": "Route 22 (Red)"
+      },
+      {
+        "name": "Primeape",
+        "location": "Evolve Mankey"
+      },
+      {
+        "name": "Growlithe",
+        "location": "Route 7 (Red)"
+      },
+      {
+        "name": "Arcanine",
+        "location": "Evolve Growlithe"
+      },
+      {
+        "name": "Poliwag",
+        "location": "Route 6 (Good Rod)"
+      },
+      {
+        "name": "Poliwhirl",
+        "location": "Evolve Poliwag"
+      },
+      {
+        "name": "Poliwrath",
+        "location": "Evolve Poliwhirl"
+      },
+      {
+        "name": "Abra",
+        "location": "Route 24"
+      },
+      {
+        "name": "Kadabra",
+        "location": "Evolve Abra"
+      },
+      {
+        "name": "Alakazam",
+        "location": "Trade Kadabra"
+      },
+      {
+        "name": "Machop",
+        "location": "Rock Tunnel"
+      },
+      {
+        "name": "Machoke",
+        "location": "Evolve Machop"
+      },
+      {
+        "name": "Machamp",
+        "location": "Trade Machoke"
+      },
+      {
+        "name": "Bellsprout",
+        "location": "Route 24 (Blue)"
+      },
+      {
+        "name": "Weepinbell",
+        "location": "Evolve Bellsprout"
+      },
+      {
+        "name": "Victreebel",
+        "location": "Evolve Weepinbell"
+      },
+      {
+        "name": "Tentacool",
+        "location": "Route 19 (Surf)"
+      },
+      {
+        "name": "Tentacruel",
+        "location": "Evolve Tentacool"
+      },
+      {
+        "name": "Geodude",
+        "location": "Mt. Moon"
+      },
+      {
+        "name": "Graveler",
+        "location": "Evolve Geodude"
+      },
+      {
+        "name": "Golem",
+        "location": "Trade Graveler"
+      },
+      {
+        "name": "Ponyta",
+        "location": "Pokemon Mansion"
+      },
+      {
+        "name": "Rapidash",
+        "location": "Evolve Ponyta"
+      },
+      {
+        "name": "Slowpoke",
+        "location": "Route 12 (Super Rod)"
+      },
+      {
+        "name": "Slowbro",
+        "location": "Evolve Slowpoke"
+      },
+      {
+        "name": "Magnemite",
+        "location": "Power Plant"
+      },
+      {
+        "name": "Magneton",
+        "location": "Power Plant"
+      },
+      {
+        "name": "Farfetch'd",
+        "location": "Vermilion City Trade"
+      },
+      {
+        "name": "Doduo",
+        "location": "Route 16"
+      },
+      {
+        "name": "Dodrio",
+        "location": "Evolve Doduo"
+      },
+      {
+        "name": "Seel",
+        "location": "Seafoam Islands"
+      },
+      {
+        "name": "Dewgong",
+        "location": "Evolve Seel"
+      },
+      {
+        "name": "Grimer",
+        "location": "Pokemon Mansion (Red)"
+      },
+      {
+        "name": "Muk",
+        "location": "Evolve Grimer"
+      },
+      {
+        "name": "Shellder",
+        "location": "Route 19 (Good Rod)"
+      },
+      {
+        "name": "Cloyster",
+        "location": "Evolve Shellder"
+      },
+      {
+        "name": "Gastly",
+        "location": "Pokemon Tower"
+      },
+      {
+        "name": "Haunter",
+        "location": "Pokemon Tower"
+      },
+      {
+        "name": "Gengar",
+        "location": "Trade Haunter"
+      },
+      {
+        "name": "Onix",
+        "location": "Rock Tunnel"
+      },
+      {
+        "name": "Drowzee",
+        "location": "Route 11"
+      },
+      {
+        "name": "Hypno",
+        "location": "Evolve Drowzee"
+      },
+      {
+        "name": "Krabby",
+        "location": "Route 6 (Good Rod)"
+      },
+      {
+        "name": "Kingler",
+        "location": "Evolve Krabby"
+      },
+      {
+        "name": "Voltorb",
+        "location": "Power Plant"
+      },
+      {
+        "name": "Electrode",
+        "location": "Power Plant"
+      },
+      {
+        "name": "Exeggcute",
+        "location": "Safari Zone"
+      },
+      {
+        "name": "Exeggutor",
+        "location": "Evolve Exeggcute"
+      },
+      {
+        "name": "Cubone",
+        "location": "Pokemon Tower"
+      },
+      {
+        "name": "Marowak",
+        "location": "Pokemon Tower"
+      },
+      {
+        "name": "Hitmonlee",
+        "location": "Saffron Dojo"
+      },
+      {
+        "name": "Hitmonchan",
+        "location": "Saffron Dojo"
+      },
+      {
+        "name": "Lickitung",
+        "location": "Route 18 Trade"
+      },
+      {
+        "name": "Koffing",
+        "location": "Pokemon Mansion"
+      },
+      {
+        "name": "Weezing",
+        "location": "Evolve Koffing"
+      },
+      {
+        "name": "Rhyhorn",
+        "location": "Safari Zone"
+      },
+      {
+        "name": "Rhydon",
+        "location": "Evolve Rhyhorn"
+      },
+      {
+        "name": "Chansey",
+        "location": "Safari Zone"
+      },
+      {
+        "name": "Tangela",
+        "location": "Route 21"
+      },
+      {
+        "name": "Kangaskhan",
+        "location": "Safari Zone"
+      },
+      {
+        "name": "Horsea",
+        "location": "Route 19 (Good Rod)"
+      },
+      {
+        "name": "Seadra",
+        "location": "Evolve Horsea"
+      },
+      {
+        "name": "Goldeen",
+        "location": "Route 6 (Good Rod)"
+      },
+      {
+        "name": "Seaking",
+        "location": "Evolve Goldeen"
+      },
+      {
+        "name": "Staryu",
+        "location": "Route 19 (Super Rod)"
+      },
+      {
+        "name": "Starmie",
+        "location": "Evolve Staryu"
+      },
+      {
+        "name": "Mr. Mime",
+        "location": "Route 2 Trade"
+      },
+      {
+        "name": "Scyther",
+        "location": "Safari Zone (Red)"
+      },
+      {
+        "name": "Jynx",
+        "location": "Cerulean City Trade"
+      },
+      {
+        "name": "Electabuzz",
+        "location": "Power Plant (Red)"
+      },
+      {
+        "name": "Magmar",
+        "location": "Pokemon Mansion (Blue)"
+      },
+      {
+        "name": "Pinsir",
+        "location": "Safari Zone (Blue)"
+      },
+      {
+        "name": "Tauros",
+        "location": "Safari Zone"
+      },
+      {
+        "name": "Magikarp",
+        "location": "Route 4 (Old Rod)"
+      },
+      {
+        "name": "Gyarados",
+        "location": "Evolve Magikarp"
+      },
+      {
+        "name": "Lapras",
+        "location": "Silph Co. Gift"
+      },
+      {
+        "name": "Ditto",
+        "location": "Pokemon Mansion"
+      },
+      {
+        "name": "Eevee",
+        "location": "Starter (Let's Go Eevee)"
+      },
+      {
+        "name": "Vaporeon",
+        "location": "Evolve Eevee"
+      },
+      {
+        "name": "Jolteon",
+        "location": "Evolve Eevee"
+      },
+      {
+        "name": "Flareon",
+        "location": "Evolve Eevee"
+      },
+      {
+        "name": "Porygon",
+        "location": "Celadon Game Corner"
+      },
+      {
+        "name": "Omanyte",
+        "location": "Cinnabar Lab (Helix Fossil)"
+      },
+      {
+        "name": "Omastar",
+        "location": "Evolve Omanyte"
+      },
+      {
+        "name": "Kabuto",
+        "location": "Cinnabar Lab (Dome Fossil)"
+      },
+      {
+        "name": "Kabutops",
+        "location": "Evolve Kabuto"
+      },
+      {
+        "name": "Aerodactyl",
+        "location": "Cinnabar Lab (Old Amber)"
+      },
+      {
+        "name": "Snorlax",
+        "location": "Route 12"
+      },
+      {
+        "name": "Articuno",
+        "location": "Seafoam Islands"
+      },
+      {
+        "name": "Zapdos",
+        "location": "Power Plant"
+      },
+      {
+        "name": "Moltres",
+        "location": "Victory Road"
+      },
+      {
+        "name": "Dratini",
+        "location": "Safari Zone"
+      },
+      {
+        "name": "Dragonair",
+        "location": "Evolve Dratini"
+      },
+      {
+        "name": "Dragonite",
+        "location": "Evolve Dragonair"
+      },
+      {
+        "name": "Mewtwo",
+        "location": "Cerulean Cave"
+      },
+      {
+        "name": "Mew",
+        "location": "Event"
+      }
     ]
   },
   "Generation II": {
