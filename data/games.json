@@ -1214,20 +1214,8 @@
     ],
     "Let's Go Pikachu/Let's Go Eevee": [
       {
-        "name": "Pikachu",
-        "location": "Starter (Let's Go Pikachu)"
-      },
-      {
         "name": "Bulbasaur",
         "location": "Cerulean City Gift"
-      },
-      {
-        "name": "Charmander",
-        "location": "Route 24 Gift"
-      },
-      {
-        "name": "Squirtle",
-        "location": "Vermilion City Gift"
       },
       {
         "name": "Ivysaur",
@@ -1238,12 +1226,20 @@
         "location": "Evolve Ivysaur"
       },
       {
+        "name": "Charmander",
+        "location": "Route 24 Gift"
+      },
+      {
         "name": "Charmeleon",
         "location": "Evolve Charmander"
       },
       {
         "name": "Charizard",
         "location": "Evolve Charmeleon"
+      },
+      {
+        "name": "Squirtle",
+        "location": "Vermilion City Gift"
       },
       {
         "name": "Wartortle",
@@ -1312,6 +1308,10 @@
       {
         "name": "Arbok",
         "location": "Evolve Ekans"
+      },
+      {
+        "name": "Pikachu",
+        "location": "Starter (Let's Go Pikachu)"
       },
       {
         "name": "Raichu",
